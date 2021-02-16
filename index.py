@@ -5,7 +5,7 @@ import cgi
 
 form = cgi.FieldStorage()
 print("Content-type: text/html; charset=utf-8\n")
-
+print("test commit")
 print(form.getvalue("name"))
 
 html = """<!DOCTYPE html>
